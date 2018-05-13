@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href='css/styles.css'>
+  <link rel="stylesheet" href='css/animate.css'>
+  <link rel="stylesheet" href='css/bootstrap.min.css'>
+  <link rel="stylesheet" href='css/font-awesome.css'>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+	<title>Responsive web design</title>
+<!--[if IE]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+  
+</head>
+<body>
+   <!-- Static navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top m-b-0">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Pre-Media</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#prices">Pricing</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#contact">Contacts</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<!-- static banner -->
+  <div class="banner" id="home">
+  	<div class="container">
+      <div class="row p-t-30">
+        <div class="col-lg-6 col-md-6 col-sm-6 p-t-30 wow slideInLeft" data-wow-delay="0.2s">
+          <h2 class="white">RESPONSIVE WEB DESIGN</h2>
+          <p class="p-15 white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque. <span class="txt-hide">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, sem. Donec quam felis, ultricies nec, pellentesque eu, sem. Nulla consequat massa quis enim. Donec pede justo,<br><br>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</span></p>
+          <button class="btn btn-warning spacing" id="btn">BUY NOW</button>
+          <button class="btn btn-success">VIEW DETAIL</button>
+          <div id="status"></div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 p-t-30 wow slideInRight" data-wow-delay="0.2s">
+          <img src="images/responsive_design_shop.png" alt="banner-img" class="img-responsive m-t-50 img-resized">
+        </div>
+      </div>
+  	</div>
+  </div>
+
+  <!-- services -->
+  <section id="services">
+  <div class="services text-center">
+    <div class="container">
+      <h2>SERVICES</h2>
+      <br>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque. Cum sociis natoque penatibus et magnis dis parturient montes. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
+      <div class="row txt-size p-t-50">
+        <div class="col-lg-3 col-md-3 col-sm-3 wow fadeInLeft" data-wow-delay="0.2s">
+          <i class="fa fa-desktop" aria-hidden="true"></i>
+          <h4>WEB DESIGN</h4>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+          <ul class="list text-left txt-hide">
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Cum sociis natoque penatibus</li>
+            <li>Nulla consequat massa quis enim</li>
+            <li>Vivamus elementum semper nisi</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 wow fadeInLeft" data-wow-delay="0.6s">
+          <i class="fa fa-mobile" aria-hidden="true"></i>
+          <h4>MOBILE APPS</h4>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+          <ul class="list text-left txt-hide">
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Cum sociis natoque penatibus</li>
+            <li>Nulla consequat massa quis enim</li>
+            <li>Vivamus elementum semper nisi</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 wow fadeInLeft" data-wow-delay="1.2s">
+          <i class="fa fa-database" aria-hidden="true"></i>
+          <h4>DATA STORAGE</h4>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+          <ul class="list text-left txt-hide">
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Cum sociis natoque penatibus</li>
+            <li>Nulla consequat massa quis enim</li>
+            <li>Vivamus elementum semper nisi</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 wow fadeInLeft" data-wow-delay="1.6s">
+          <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+          <h4>E-LEARNING</h4>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+          <ul class="list text-left txt-hide">
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Cum sociis natoque penatibus</li>
+            <li>Nulla consequat massa quis enim</li>
+            <li>Vivamus elementum semper nisi</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- price tag -->
+  <section id="prices">
+    <div class="prices text-center p-b-30">
+      <div class="container">
+        <h2>PRICING</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+        <div class="row p-t-30">
+          <div class="col-lg-3 col-md-3 col-sm-3 wow flipInY" data-wow-delay="0.2s">
+            <div class="price-section pz-m-b">
+              <div class="price-tag head-bg-green">
+                <h3>MONTHLY</h3>
+              </div>
+              <h4>$14.30</h4>
+              <!-- <p>Basic Support</p> -->
+              <ul class="list text-left">
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Cum sociis natoque penatibus</li>
+                <li>Nulla consequat massa quis enim</li>
+                <li>Vivamus elementum semper nisi</li>
+                <li>Etiam ultricies nisi vel augue</li>
+              </ul>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 wow flipInY" data-wow-delay="0.6s">
+            <div class="price-section pz-m-b">
+              <div class="price-tag head-bg-orange">
+                <h3>YEARLY</h3>
+              </div>
+              <h4>$17.20</h4>
+              <!-- <p>Basic Support</p> -->
+              <ul class="list text-left">
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Cum sociis natoque penatibus</li>
+                <li>Nulla consequat massa quis enim</li>
+                <li>Vivamus elementum semper nisi</li>
+                <li>Etiam ultricies nisi vel augue</li>
+              </ul>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 wow flipInY" data-wow-delay="1.2s">
+            <div class="price-section pz-m-b">
+              <div class="price-tag head-bg-purple">
+                <h3>TWO YEAR</h3>
+              </div>
+              <h4>$5.75</h4>
+              <!-- <p>Basic Support</p> -->
+              <ul class="list text-left">
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Cum sociis natoque penatibus</li>
+                <li>Nulla consequat massa quis enim</li>
+                <li>Vivamus elementum semper nisi</li>
+                <li>Etiam ultricies nisi vel augue</li>
+              </ul>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 wow flipInY" data-wow-delay="1.6s">
+            <div class="price-section pz-m-b">
+              <div class="price-tag head-bg-brown">
+                <h3>LIFE TIME</h3>
+              </div>
+              <h4>$299.00</h4>
+              <!-- <p>Basic Support</p> -->
+              <ul class="list text-left">
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Cum sociis natoque penatibus</li>
+                <li>Nulla consequat massa quis enim</li>
+                <li>Vivamus elementum semper nisi</li>
+                <li>Etiam ultricies nisi vel augue</li>
+              </ul>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- our team -->
+    <section id="team">
+    <div class="our-team text-center p-t-50 p-b-30">
+      <div class="container">
+        <h2>OUR-TEAM</h2>
+        <br>
+        <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
+        <div class="row p-t-30 p-b-30 p-t-0">
+          <div class="col-lg-3 col-md-3 col-sm-3 wow zoomIn" data-wow-delay="0.2s">
+            <img src="./images/img02.jpg" alt="" class="clip-circle team-img">
+            <h4>CEO</h4>
+            <p class="small">Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <span class="txt-hide">Donec quam felis, ultricies nec, pellentesque. Cum sociis natoque penatibus et magnis dis parturient montes.</span></p>
+            <div class="icons-list">
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 wow zoomIn" data-wow-delay="0.6s">
+            <img src="./images/img03.jpg" alt="" class="clip-circle team-img">
+            <h4>MD</h4>
+            <p class="small">Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <span class="txt-hide">Donec quam felis, ultricies nec, pellentesque. Cum sociis natoque penatibus et magnis dis parturient montes.</span></p>
+            <div class="icons-list">
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 wow zoomIn" data-wow-delay="1.2s">
+            <img src="./images/img04.jpg" alt="" class="clip-circle team-img">
+            <h4>MANAGER</h4>
+            <p class="small">Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <span class="txt-hide">Donec quam felis, ultricies nec, pellentesque. Cum sociis natoque penatibus et magnis dis parturient montes.</span></p>
+            <div class="icons-list">
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 wow zoomIn" data-wow-delay="1.6s">
+            <img src="./images/img05.jpg" alt="" class="clip-circle team-img">
+            <h4>LEAD ENGINEER</h4>
+            <p class="small">Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <span class="txt-hide">Donec quam felis, ultricies nec, pellentesque. Cum sociis natoque penatibus et magnis dis parturient montes.</span></p>
+            <div class="icons-list">
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div>
+    </section>
+
+    <!-- our clients -->
+    <section id="clients">
+    <div class="clients text-center p-t-50 p-b-30">
+      <div class="container">
+        <h2>OUR-CLIENTS</h2>
+        <br>
+        <p>Donec quam felis, ultricies nec, pellentesque. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+        <div class="row p-t-30 p-b-30">
+          <div class="col-lg-3 col-md-3 col-sm-3 wow bounceIn" data-wow-delay="0.2s">
+            <img src="./images/logo1.jpg" alt="logo1" class="logo-img">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 wow bounceIn" data-wow-delay="0.6s">
+            <img src="./images/logo2.jpg" alt="logo2" class="logo-img">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 wow bounceIn" data-wow-delay="1.2s">
+            <img src="./images/logo3.jpg" alt="logo3" class="logo-img">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 wow bounceIn" data-wow-delay="1.6s">
+            <img src="./images/logo4.jpg" alt="logo4" class="logo-img">
+          </div>
+        </div>
+        <div class="row p-t-30 p-b-30">
+          <div class="col-lg-3 col-md-3 col-sm-3 wow bounceIn" data-wow-delay="0.2s">
+            <img src="./images/logo5.jpg" alt="logo1" class="logo-img">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 wow bounceIn" data-wow-delay="0.6s">
+            <img src="./images/logo6.jpg" alt="logo2" class="logo-img">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 wow bounceIn" data-wow-delay="1.2s">
+            <img src="./images/logo7.jpg" alt="logo3" class="logo-img">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 wow bounceIn" data-wow-delay="1.6s">
+            <img src="./images/logo8.jpg" alt="logo4" class="logo-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact us -->
+  <section id="contact">
+   <div id="blur-bg" class="p-b-30">
+    <div class="contact p-t-30">
+      <div class="container">
+          <div class="text-center white">
+            <h2>CONTACTS</h2>
+            <p>Lorem ipsum dolor sit amet, Aenean commodo ligula eget dolor.</p>
+          </div>
+          <div class="row p-t-30 p-b-20">
+            <div class="col-lg-6 col-md-6 wow slideInUp" data-wow-delay="0.2s">
+              <form>
+                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="email" class="form-control" placeholder="Your Email">
+                <input type="text" class="form-control" placeholder="Your Phone">
+              </form>
+            </div>
+            <div class="col-lg-6 col-md-6 wow slideInUp" data-wow-delay="0.4s">
+              <form>
+                <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+              </form>
+              <br>
+              <button class="btn btn-warning">SUBMIT</button>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<section id="footer">
+  <div class="container">
+    <div class="row p-t-30 p-b-30">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.2s">
+        <div class="address-section white">
+          <div class="left">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+          </div>
+          <div class="right">
+            <p>21 Revolution Street</p>
+            <h3 class="m-0 font-resize">Paris, France</h3>
+          </div>
+        </div>
+        <div class="address-section white">
+          <div class="left">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+          </div>
+          <div class="right">
+            <h3 class="m-0 p-t-10 font-resize">+1 555 123456</h3>
+          </div>
+        </div>
+        <div class="address-section white p-b-0">
+          <div class="left">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </div>
+          <div class="right">
+            <h3 class="m-0 p-t-10 font-resize" style="color: orange"><a href="#">support@company.com</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.6s">
+        <h4 class="white">About the company</h4>
+        <p class="lightgrey">Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
+        <br>
+        <div class="icons-list-footer">
+          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="js/wow.min.js"></script>
+<script>
+  wow = new WOW(
+    {
+    boxClass:     'wow',      // default
+    animateClass: 'animated', // default
+    offset:       0          // default
+   }
+)
+wow.init();
+</script>
+<script>
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({
+      target: ".navbar", 
+      offset: 50
+    });   
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#navbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+</script>
+</body>
+</html>
